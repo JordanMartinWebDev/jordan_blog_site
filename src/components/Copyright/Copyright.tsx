@@ -1,4 +1,4 @@
-import { makeClassName } from "@/util/utils";
+import { makeClassName } from "@/utils/utils";
 
 export default function Copyright() {
   return (
