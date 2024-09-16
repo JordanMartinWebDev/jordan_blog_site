@@ -1,4 +1,4 @@
-import { makeClassName } from "@/util/utils";
+import { makeClassName } from "@/utils/utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDiagramProject,
@@ -7,7 +7,7 @@ import {
   faPerson,
 } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { TransitionLink } from "@/util/TransitionLink";
+import { TransitionLink } from "@/utils/TransitionLink";
 
 export default function Home() {
   return (
