@@ -7,6 +7,7 @@ import {
   faPerson,
 } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { TransitionLink } from "@/utilities/TransitionLink";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       >
         current = intro();
       </h4>
-      <h1 className="text-6xl">
+      <h1 className="text-6xl pt-8">
         <strong>Hello, I'm Jordan.</strong>
       </h1>
       <h1 className={makeClassName("text-6xl", "pt-1", "pb-12")}>
@@ -44,9 +45,9 @@ export default function Home() {
               "w-1/12"
             )}
           />
-          <a href="/pages/blog" className="underline">
+          <TransitionLink href="/pages/blog" className="underline">
             Check out what I've been learning
-          </a>
+          </TransitionLink>
         </li>
         <li className={makeClassName("pb-4")}>
           <FontAwesomeIcon
@@ -59,9 +60,9 @@ export default function Home() {
               "w-1/12"
             )}
           />
-          <a href="/pages/projects" className="underline">
+          <TransitionLink href="/pages/projects" className="underline">
             Some of my projects
-          </a>
+          </TransitionLink>
         </li>
         <li className={makeClassName("pb-4")}>
           <FontAwesomeIcon
@@ -74,9 +75,9 @@ export default function Home() {
               "w-1/12"
             )}
           />
-          <a href="/pages/about" className="underline">
+          <TransitionLink href="/pages/about" className="underline">
             More about me
-          </a>
+          </TransitionLink>
         </li>
         <li>
           <FontAwesomeIcon
@@ -89,9 +90,9 @@ export default function Home() {
               "w-1/12"
             )}
           />
-          <a href="/pages/contact" className="underline">
+          <TransitionLink href="/pages/contact" className="underline">
             Get in touch
-          </a>
+          </TransitionLink>
         </li>
       </ul>
     </div>

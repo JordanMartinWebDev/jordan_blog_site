@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={makeClassName(`${inter.className}`)}>
         <Navbar />
-        <main className={makeClassName("container", "mx-auto", "animate-fade")}>
+        <main className={makeClassName("container", "mx-auto")}>
           <BracketWrapper size="5xl">{children}</BracketWrapper>
         </main>
         <Footer />
