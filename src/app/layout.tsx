@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import Copyright from "@/components/Copyright/Copyright";
 import Footer from "@/components/Footer/Footer";
 import BracketWrapper from "@/components/BracketWrapper/BracketWrapper";
-import { makeClassName } from "@/utilities/utils";
+import { makeClassName } from "@/util/utils";
 import { Inter } from "next/font/google";
 
 const inter = Inter({

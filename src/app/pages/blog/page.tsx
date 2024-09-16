@@ -1,4 +1,4 @@
-import { makeClassName } from "@/utilities/utils";
+import { makeClassName } from "@/util/utils";
 import Image from "next/image";
 import testingImage from "@/images/testImage.jpeg";
 

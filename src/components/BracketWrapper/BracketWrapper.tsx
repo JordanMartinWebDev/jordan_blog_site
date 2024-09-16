@@ -1,4 +1,4 @@
-import { makeClassName } from "@/utilities/utils";
+import { makeClassName } from "@/util/utils";
 import { ReactNode } from "react";
 
 export default function BracketWrapper({

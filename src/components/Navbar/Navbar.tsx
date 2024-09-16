@@ -1,6 +1,6 @@
-import { makeClassName } from "@/utilities/utils";
+import { makeClassName } from "@/util/utils";
 import BracketWrapper from "../BracketWrapper/BracketWrapper";
-import { TransitionLink } from "@/utilities/TransitionLink";
+import { TransitionLink } from "@/util/TransitionLink";
 
 export default function Navbar() {
   return (
