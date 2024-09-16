@@ -1,41 +1,37 @@
-import { makeClassName } from "@/utilities/utils";
-import Image from "next/image";
-
 export default function Footer() {
   return (
-    <footer
-      className={makeClassName(
-        "row-start-3",
-        "flex",
-        "gap-6",
-        "bg-foreground",
-        "flex-wrap",
-        "items-center",
-        "justify-center"
-      )}
-    >
-      <a
-        className={makeClassName(
-          "flex",
-          "items-center",
-          "gap-2",
-          "hover:underline",
-          "hover:underline-offset-4",
-          "text-background"
-        )}
-        href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image
-          aria-hidden
-          src="https://nextjs.org/icons/learn.svg"
-          alt=""
-          width={16}
-          height={16}
-        />
-        Learn
-      </a>
+    <footer className="bg-foreground text-background pt-8 pb-16">
+      <div className="grid grid-cols-3 container mx-auto">
+        <div className="border-e">
+          <p className="grid-cols-subgrid col-span-1 pb-4 font-bold">Links</p>
+          <ul className="list-disc pl-4">
+            <li>
+              <a
+                href="https://github.com/jordanmartinwebdev"
+                className="text-background pb-2"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/jordanmartinwebdev"
+                className="text-background pb-2"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="grid-cols-subgrid col-span-2 pl-4">
+          <p>
+            Made with{" "}
+            <a href="https://nextjs.org/" className="text-background">
+              Next.js
+            </a>
+          </p>
+        </div>
+      </div>
     </footer>
   );
 }

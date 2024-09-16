@@ -14,6 +14,20 @@ const config: Config = {
         highlight: "var(--highlight)",
         primary: "var(--primary)",
       },
+      animation: {
+        fade: "fadeIn 1.5s ease-in-out",
+      },
+
+      keyframes: {
+        fadeIn: {
+          from: {
+            opacity: "0",
+          },
+          to: {
+            opacity: "1",
+          },
+        },
+      },
     },
   },
   plugins: [],

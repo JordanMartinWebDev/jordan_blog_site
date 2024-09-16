@@ -16,7 +16,7 @@ export default function BracketWrapper({
         className={makeClassName(
           "text-primary",
           "font-bold",
-          !nav ? "pt-8 pb-16 text-5xl" : ""
+          !nav ? "pt-8 pb-8 text-5xl" : ""
         )}
       >{`{`}</div>
       {children}
