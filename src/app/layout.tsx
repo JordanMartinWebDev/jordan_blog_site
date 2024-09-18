@@ -6,6 +6,7 @@ import Footer from "@/components/Footer/Footer";
 import BracketWrapper from "@/components/BracketWrapper/BracketWrapper";
 import { makeClassName } from "@/utils/utils";
 import { Inter } from "next/font/google";
+import { Suspense } from "react";
 
 const inter = Inter({
   subsets: ["latin"],
