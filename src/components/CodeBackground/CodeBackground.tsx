@@ -34,18 +34,18 @@ export default function CodeBackground() {
 
   const renderCode = () => {
     return (
-      <div className="grid grid-flow-row gap-y-4 justify-items-end">
+      <div className="grid grid-flow-row gap-y-4 justify-items-end opacity-20">
         {Array.from({ length: 9 }).map((_, i) => {
           const rowDoubler = Math.floor(Math.random() * 2) + 1;
           return (
-            <div className="flex opacity-20">
+            <div className="flex">
               {Array.from({ length: rowDoubler }).map((_, j) => (
                 <div
                   key={`${i}-${j}`}
                   className={makeClassName(
                     generateRandomColor(),
                     generateRandomWidth(),
-                    "h-12",
+                    "h-10",
                     "rounded-3xl"
                   )}
                 ></div>
